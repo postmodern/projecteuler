@@ -1,0 +1,5 @@
+require 'extensions/math'
+require 'extensions/integer'
+require 'extensions/string'
+require 'extensions/array'
+require 'extensions/range'
