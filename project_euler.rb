@@ -406,7 +406,7 @@ def problem52
 end
 
 def problem59
-  chars = File.read('cipher1.txt').split(',').map { |c| c.to_i }
+  chars = File.read('data/cipher1.txt').split(',').map { |c| c.to_i }
 
   (c ^ k[0]).chr.is_binary_data?
 end
